@@ -82,19 +82,19 @@ const FaIcn = styled(FontAwesomeIcon)`
   color: ${colors.primary};
 `
 
-const TwoColGrid = styled.div`
-  margin: auto;
-  width: 90%;
-  text-align: left;
-  color: ${colors.primary};
-  /* @media(min-width: 800px) {
-    width: 30%;
-  } */
-  align-items: center;
-  display: grid;
-  grid-template-columns: 50%;
-  grid-template-rows: 30px;
-`
+// const TwoColGrid = styled.div`
+//   margin: auto;
+//   width: 90%;
+//   text-align: left;
+//   color: ${colors.primary};
+//   /* @media(min-width: 800px) {
+//     width: 30%;
+//   } */
+//   align-items: center;
+//   display: grid;
+//   grid-template-columns: 50%;
+//   grid-template-rows: 30px;
+// `
 
 class App extends Component {
   render() {

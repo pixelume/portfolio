@@ -225,7 +225,7 @@ class App extends Component {
             alt="Eye Chart App"
             buttons={
               <div>
-                <a href="http://eyechart-7a168.firebaseapp.com" target="_blank" rel="noopener noreferrer"><Btn><FontAwesomeIcon icon="globe"/>&nbsp; Demo Site</Btn></a>
+                <a href="https://eyechart.online" target="_blank" rel="noopener noreferrer"><Btn><FontAwesomeIcon icon="globe"/>&nbsp; Demo Site</Btn></a>
                 <a href="https://github.com/pixelume/eye_chart_v2" target="_blank" rel="noopener noreferrer"><Btn><FontAwesomeIcon icon={["fab", "github"]}/>&nbsp; Github Repo</Btn></a>
               </div>
               }
@@ -247,7 +247,7 @@ class App extends Component {
             buttons={
               <div>
                 <AnchorLink href="#home"><Btn><FontAwesomeIcon icon="globe"/>&nbsp; Demo Site</Btn></AnchorLink>
-                <Btn><FontAwesomeIcon icon={["fab", "github"]}/>&nbsp; Github Repo</Btn>
+                <a href="https://github.com/pixelume/portfolio" target="_blank" rel="noopener noreferrer"><Btn><FontAwesomeIcon icon={["fab", "github"]}/>&nbsp; Github Repo</Btn></a>
               </div>
               }
           >

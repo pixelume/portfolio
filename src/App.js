@@ -248,7 +248,7 @@ class App extends Component {
             buttons={
               <div>
                 <a href="https://anetart.space" target="_blank" rel="noopener noreferrer"><Btn><FontAwesomeIcon icon="globe"/>&nbsp; Demo Site</Btn></a>
-                <a href="https://github.com/pixelume/portfolio" target="_blank" rel="noopener noreferrer"><Btn><FontAwesomeIcon icon={["fab", "github"]}/>&nbsp; Github Repo</Btn></a>
+                <a href="https://github.com/pixelume/anetart" target="_blank" rel="noopener noreferrer"><Btn><FontAwesomeIcon icon={["fab", "github"]}/>&nbsp; Github Repo</Btn></a>
               </div>
               }
           >

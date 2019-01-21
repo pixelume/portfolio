@@ -23,6 +23,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import mbp from './Assets/Images/macbook_pro.jpg';
 import headshot from './Assets/Images/my-head-shot.jpg';
 import portfolioImg from './Assets/Images/portfolio.jpeg';
+import AnnettePortfolioImg from './Assets/Images/annette-portfolio.jpg';
 import cardOne from './Assets/Images/eye-chart.png';
 import SkillsTable from './Components/SkillsTable';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -242,12 +243,25 @@ class App extends Component {
             <p style={{fontStyle: 'italic'}}>To test use Email: pieter@pixelume.com Password: testPassword </p>
           </Card>
           <Card
+            src={AnnettePortfolioImg}
+            alt="Porfolio Site"
+            buttons={
+              <div>
+                <a href="https://anetart.space" target="_blank" rel="noopener noreferrer"><Btn><FontAwesomeIcon icon="globe"/>&nbsp; Demo Site</Btn></a>
+                <a href="https://github.com/pixelume/portfolio" target="_blank" rel="noopener noreferrer"><Btn><FontAwesomeIcon icon={["fab", "github"]}/>&nbsp; Github Repo</Btn></a>
+              </div>
+              }
+          >
+            <h3>Graphic Design Portfolio</h3>
+            <p>This is a Graphic Design Portfolio site. It was built with Reactjs with Gatsbyjs static site generator. It makes use of graphql queries to query images in a specified folder and generate a gallery.</p>
+          </Card>
+          <Card
             src={portfolioImg}
             alt="Porfolio Site"
             buttons={
               <div>
                 <AnchorLink href="#home"><Btn><FontAwesomeIcon icon="globe"/>&nbsp; Demo Site</Btn></AnchorLink>
-                <a href="https://github.com/pixelume/portfolio" target="_blank" rel="noopener noreferrer"><Btn><FontAwesomeIcon icon={["fab", "github"]}/>&nbsp; Github Repo</Btn></a>
+                <a href="https://github.com/pixelume/anetart" target="_blank" rel="noopener noreferrer"><Btn><FontAwesomeIcon icon={["fab", "github"]}/>&nbsp; Github Repo</Btn></a>
               </div>
               }
           >
